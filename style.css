@@ -47,13 +47,24 @@ nav {
 .nav_start,
 .nav_center,
 .nav_end {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_start {
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+.nav_start svg {
+    display: none;
 }
 
 .logo {
-    width: 30%;
+    width: 100%;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 620;
 }
 
@@ -67,7 +78,7 @@ nav {
 .nav_center li {
     display: inline-block;
     color: rgb(18, 18, 18);
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .nav_center li:focus {
@@ -77,10 +88,8 @@ nav {
 
 .nav_end {
     width: 30%;
-    display: flex;
     justify-content: flex-end;
     overflow: hidden;
-    align-items: center;
 }
 
 .day_night_icon {
@@ -349,6 +358,7 @@ footer .contactInfo {
 .fixedSubHead {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
