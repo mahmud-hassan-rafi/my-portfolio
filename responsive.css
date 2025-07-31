@@ -51,15 +51,16 @@
 
     .introduction {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        height: auto;
+        height: 83vh;
         margin: 25px;
     }
 
     .introduction .intro_img {
-        width: 100%;
+        width: 190px;
+        height: 190px;
     }
 
     .introduction .intro_img img {
@@ -73,6 +74,7 @@
         flex-direction: column;
         align-items: center;
         width: 70%;
+        height: auto;
     }
 
     .introduction .intro_text h1#name {
