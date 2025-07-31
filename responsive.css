@@ -75,9 +75,9 @@
     }
 
     .introduction .intro_text h1#name {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: 600;
-        line-height: 2.3rem;
+        line-height: 2.1rem;
         text-align: left;
         display: inline-flex;
     }
