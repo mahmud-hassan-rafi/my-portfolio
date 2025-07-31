@@ -55,7 +55,7 @@
         align-items: center;
         flex-direction: column;
         height: auto;
-        margin-top: 25px;
+        margin: 25px;
     }
 
     .introduction .intro_img {
@@ -76,11 +76,11 @@
     }
 
     .introduction .intro_text h1#name {
+        width: 35%;
         font-size: 28px;
         font-weight: 600;
         line-height: 2.1rem;
-        text-align: left;
-        display: inline-flex;
+        margin-right: auto;
     }
 
     .introduction .intro_text #tagline {
@@ -92,6 +92,12 @@
         margin-top: 10px;
     }
 
+    .introduction .intro_text button[type="submit"] {
+        width: auto;
+        margin-right: auto;
+        font-size: 10px;
+        column-gap: 5px;
+    }
 
 
 
