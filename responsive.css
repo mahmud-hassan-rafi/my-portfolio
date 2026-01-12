@@ -1,106 +1,270 @@
-@media only screen and (max-width:450px) {
+@media only screen and (max-width: 1024px) {
+  .introduction {
+    margin: 30px;
+  }
 
-    .nav {
-        padding: 5px 1.4rem;
-    }
+  .Study {
+    width: 75vh;
+  }
+}
 
-    .nav_center,
-    .nav_end .day_night_icon {
-        display: none;
-        border: none;
-    }
+@media only screen and (max-width: 756px) {
+  .nav {
+    padding: 5px 1.4rem;
+  }
 
-    .nav_start {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        flex-direction: row;
-        column-gap: 1.5rem;
-    }
+  .nav_center,
+  .nav_end .day_night_icon {
+    display: none;
+    border: none;
+  }
 
-    .nav_start svg {
-        display: flex;
-        height: 20px;
-        width: 20px;
-    }
+  .nav_start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    width: 65%;
+  }
 
-    .nav_end {
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-        margin-right: .5rem;
-    }
+  .nav_start svg {
+    display: flex;
+    height: 20px;
+    width: 20px;
+  }
 
-    .nav_end button[type="submit"] {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-        padding: 0.7rem 1rem;
-        column-gap: 3px;
-        font-weight: 600;
-        border-radius: 6px;
-    }
+  .nav_end {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+  }
 
-    .social_icons {
-        display: flex;
-        flex-direction: column;
-        flex-basis: auto;
-    }
+  .nav_end button[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 0.7rem 1rem;
+    column-gap: 3px;
+    font-weight: 600;
+    border-radius: 6px;
+  }
 
-    .introduction {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-direction: column;
-        height: auto;
-        margin: 25px;
-    }
+  .introduction {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 2.5rem;
+    margin: 0 30px;
+  }
 
-    .introduction .intro_img {
-        width: 190px;
-        height: 190px;
-    }
+  .introduction .intro_text {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 15px;
+  }
 
-    .introduction .intro_img img {
-        width: 180px;
-        height: 180px;
-        border-radius: 50%;
-    }
+  .my_skills {
+    padding: 2.5rem;
+    margin: 0 30px;
+  }
 
-    .introduction .intro_text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 70%;
-        height: auto;
-    }
+  .text .institution_name h2 {
+    font-weight: 700;
+    font-size: 18px;
+  }
 
-    .introduction .intro_text h1#name {
-        width: 35%;
-        font-size: 28px;
-        font-weight: 600;
-        line-height: 2.1rem;
-        margin-right: auto;
-    }
+  .emptyArea {
+    display: none;
+  }
 
-    .introduction .intro_text #tagline {
-        font-size: 18px;
-        width: 60%;
-        line-height: 25px;
-        text-align: left;
-        margin-right: auto;
-        margin-top: 10px;
-    }
+  .Study {
+    padding: 0 5px;
+    display: flex;
+    width: 80%;
+    /* min-height: 200px; */
+    column-gap: 10px;
+  }
 
-    .introduction .intro_text button[type="submit"] {
-        width: auto;
-        margin-right: auto;
-        font-size: 10px;
-        column-gap: 5px;
-    }
+  .current .text,
+  .SSC .text {
+    text-align: left;
+  }
 
+  .text {
+    margin-bottom: 10px;
+  }
 
+  .current,
+  .SSC {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
+  .institution_timeline {
+    padding: 2.5rem;
+    margin: 0 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav {
+    padding: 5px 0.5rem;
+  }
+
+  .nav_center,
+  .nav_end .day_night_icon {
+    display: none;
+    border: none;
+  }
+
+  .nav_start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 0.7rem;
+    width: 60%;
+  }
+
+  .nav_start .logo {
+    font-size: clamp(16px, 2vw, 1.2rem);
+  }
+
+  .nav_start svg {
+    display: flex;
+    height: 20px;
+    width: 20px;
+  }
+
+  .nav_end {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+  }
+
+  .nav_end button[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 0.7rem 1rem;
+    column-gap: 3px;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+
+  .social_icons {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+  }
+
+  .introduction {
+    padding: 2.5rem;
+    margin: 0;
+  }
+
+  .introduction .intro_img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .introduction .intro_img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+
+  .introduction .intro_text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+    height: auto;
+  }
+
+  .introduction .intro_text #tagline {
+    font-size: 18px;
+    /* width: 60%; */
+    line-height: 25px;
+    text-align: left;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .introduction .intro_text button[type="submit"] {
+    width: auto;
+    margin-right: auto;
+    font-size: 10px;
+    column-gap: 5px;
+  }
+  .introduction .intro_text button[type="submit"] a {
+    font-size: 12px;
+  }
+
+  .introduction .intro_text p {
+    font-size: 14px;
+  }
+
+  .text .institution_name h2 {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .my_skills {
+    padding: 2.5rem;
+    padding-top: 0;
+    margin: 0;
+  }
+
+  .emptyArea {
+    display: none;
+  }
+
+  .Study {
+    padding: 0 5px;
+    display: flex;
+    width: 100%;
+    /* min-height: 300px; */
+    column-gap: 10px;
+  }
+
+  .current .text,
+  .SSC .text {
+    text-align: left;
+  }
+
+  .text {
+    margin-bottom: 10px;
+  }
+
+  .current,
+  .SSC {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .institution_timeline {
+    padding: 2.5rem;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
 }
