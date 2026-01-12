@@ -4,7 +4,29 @@
   }
 
   .Study {
-    width: 75vh;
+    width: 75vw;
+  }
+
+  .institution_timeline,
+  .empty_for_future {
+    padding: 2.5rem;
+    margin: 0;
+    height: auto;
+  }
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .project_image {
+    width: 80%;
+    height: auto;
+  }
+  .project_desc {
+    width: 80%;
+    height: 100%;
   }
 }
 
@@ -90,7 +112,7 @@
   .Study {
     padding: 0 5px;
     display: flex;
-    width: 80%;
+    width: 100%;
     /* min-height: 200px; */
     column-gap: 10px;
   }
@@ -117,6 +139,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .front_end_icon {
+    width: 80%;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .project_image {
+    width: 90%;
+  }
+  .project_desc {
+    width: 90%;
+  }
+
+  .project_desc .project_btn {
+    gap: 5px;
+  }
+
+  .project_desc .project_btn a {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .social_icons {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
   }
 }
 
@@ -195,7 +251,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 70%;
+    width: 80%;
     height: auto;
   }
 
@@ -216,6 +272,11 @@
   }
   .introduction .intro_text button[type="submit"] a {
     font-size: 12px;
+    gap: 5px;
+  }
+
+  .introduction .intro_text button {
+    padding: 15px 25px;
   }
 
   .introduction .intro_text p {
@@ -231,6 +292,10 @@
     padding: 2.5rem;
     padding-top: 0;
     margin: 0;
+  }
+
+  .front_end_icon {
+    width: 100%;
   }
 
   .emptyArea {
@@ -260,11 +325,38 @@
     flex-direction: row-reverse;
   }
 
-  .institution_timeline {
+  .education,
+  .empty_for_future {
     padding: 2.5rem;
+    margin: 0;
+    height: auto;
+  }
+
+  .institution_timeline {
+    padding: 0;
     margin: 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .project_image {
+    width: 100%;
+  }
+  .project_desc {
+    width: 100%;
+  }
+
+  .project_desc .project_btn a {
+    font-size: 12px;
+    padding: 5px;
   }
 }
