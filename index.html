@@ -98,10 +98,10 @@
       </div>
       <div class="intro_text">
         <h1 id="name">Mahmud Hassan</h1>
-        <h2 id="tagline"><span>MERN</span> Stack Developer</h2>
+        <h2 id="tagline"><span>Frontend</span> Developer (React)</h2>
         <p>
-          I am an enthusiastic Junior Full Stack Web Developer specializing in
-          <span>MongoDB, Express.js, React, Node.js</span>
+          I build responsive, real-world web applications using
+          <span>React, Redux Toolkit & modern UI practices.</span>
         </p>
         <button type="submit">
           <a href="#"
@@ -121,6 +121,25 @@
             Download Resume</a
           >
         </button>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="flex_col experiences">
+      <div class="fixedSubHead flex_col">
+        <h2 class="title" style="margin-bottom: 15px">About Me</h2>
+        <!-- <p class="tittle_desc">I have a deep experience on E-commerce</p> -->
+        <!-- <img src="https://i.ibb.co/NsDtwjh/line.png" alt="line" class="line" /> -->
+      </div>
+      <div class="empty_for_future">
+        I'm a self-taught frontend developer from Bangladesh, focused on
+        building real-world
+        <span class="color_highlight"> React applications</span> with proper
+        state management, authentication, and API integration.
+        <br />
+        <br />
+        Currently seeking a junior frontend role where I can learn from real
+        projects and contribute clean, user-friendly UI.
       </div>
     </div>
 
@@ -270,6 +289,7 @@
           src="assets/SkillBridge_heroSection.jpeg"
           alt=""
           class="project_image"
+          loading="lazy"
         />
         <div class="project_desc">
           <div class="project_title inside_desc">
@@ -292,37 +312,6 @@
       </div>
     </div>
 
-    <!-- experiences -->
-    <div class="flex_col experiences">
-      <div class="fixedSubHead flex_col">
-        <h2 class="title">My Experiences</h2>
-        <p class="tittle_desc">I have a deep experience on E-commerce</p>
-        <img src="https://i.ibb.co/NsDtwjh/line.png" alt="line" class="line" />
-      </div>
-      <div class="empty_for_future">
-        Although I am at the beginning of my journey as a full-stack web
-        developer, I have gained hands-on experience by consistently learning
-        and building real-world projects from scratch. My experience so far
-        includes creating fully responsive websites using HTML5, CSS3, and
-        JavaScript. I’ve practiced modern design principles and experimented
-        with CSS Grid and Flexbox to create clean, structured layouts. Through
-        personal projects like a task manager, quiz app, and basic portfolio
-        website, I’ve developed problem-solving skills and improved my
-        understanding of front-end development. On the backend, I’ve started
-        working with Node.js and Express to understand how servers work and how
-        to build APIs. I’ve also explored working with JSON, localStorage, and
-        asynchronous programming. Along the way, I’ve collaborated in small
-        learning communities and participated in coding challenges to improve my
-        skills. While I may not yet have professional work experience, I am
-        fully committed to becoming a job-ready developer. I treat every project
-        as a professional responsibility and continuously study best practices
-        in coding, clean UI, and full-stack architecture. My learning journey is
-        fueled by passion, curiosity, and a strong desire to grow into a
-        developer who can contribute to real-world applications and development
-        teams.
-      </div>
-    </div>
-
     <!-- send message -->
     <div class="flex_col send_message">
       <div class="fixedSubHead flex_col">
@@ -338,7 +327,13 @@
         <input type="email" name="email" id="email" /><br />
 
         <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="4"
+          style="resize: none"
+        ></textarea
         ><br />
         <input type="button" value="send" />
       </form>

@@ -188,6 +188,7 @@ nav {
   font-size: 16px;
 }
 
+.color_highlight,
 .introduction .intro_text p span,
 .introduction .intro_text #tagline span {
   color: var(--deepGreen);
@@ -254,6 +255,10 @@ nav {
   align-items: center;
 }
 
+.my_skills {
+  margin-bottom: 20px;
+}
+
 .my_skills .lang_icon {
   padding: 0 5px;
   display: flex;
@@ -274,8 +279,7 @@ nav {
   background-position: center;
 }
 
-.institution_timeline,
-.empty_for_future {
+.institution_timeline {
   padding: 2.5rem;
   margin: 0 101px;
   height: auto;
@@ -314,14 +318,19 @@ nav {
 }
 
 .empty_for_future {
-  width: 100%;
-  text-align: justify;
+  padding: 5.5rem;
+  margin: 0 101px;
+  padding-top: 0;
+  width: auto;
+  height: auto;
+  /* text-align: justify; */
 }
 
 .send_message #send_msg {
-  height: 70vh;
-  width: 32vw;
+  max-height: 75vh;
+  height: auto;
   min-width: 340px;
+  width: 40%;
   box-shadow: 1px 2px 4px #94919152;
   padding: 30px;
   margin-bottom: 20px;
@@ -387,7 +396,7 @@ footer .contactInfo {
 }
 
 .contact_details p {
-  font-size: var(--defaultFontSize);
+  font-size: 13px;
   padding-bottom: 5px;
 }
 
