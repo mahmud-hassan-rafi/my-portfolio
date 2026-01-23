@@ -32,7 +32,9 @@ nav {
   width: 100%;
   background-color: var(--navColor);
   height: 76px;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.1),
+    0 1px 2px -1px rgb(0 0 0 / 0.1);
   position: sticky;
   top: 0;
 }
@@ -315,6 +317,21 @@ nav {
   font-weight: 900;
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+.project_tech {
+  margin-top: 5px;
+  display: inline-flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.project_tech span {
+  background-color: #efefef;
+  padding: 1px 8px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .empty_for_future {
